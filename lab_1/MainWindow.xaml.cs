@@ -20,6 +20,11 @@ namespace lab_1
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Point2D point;
+        private Rectangle rectangle;
+        private Triangle triangle;
+
+
         public MainWindow()
         {
             InitializeComponent();

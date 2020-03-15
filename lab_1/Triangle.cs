@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace lab_1
 {
-    class Triangle
+    public class Triangle
     {
         private Point2D p1, p2, p3;
 
-        public void Draw(Point2D p1, Point2D p2, Point2D p3)
+        public static void DrawTriangle()
         {
-
+            Triangle T = new Triangle();
         }
 
         public Point2D getPoint1()

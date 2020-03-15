@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace lab_1
 {
-    class Rectangle
+    public class Rectangle
     {
         private Point2D p1, p2, p3, p4;
 
-        public void Draw( Point2D p1, Point2D p2, Point2D p3, Point2D p4)
+        public static Rectangle DrawRectangle()
         {
+            Rectangle R = new Rectangle();
+            R.p1 = Generation.;
 
         }
 
