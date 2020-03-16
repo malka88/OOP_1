@@ -15,10 +15,20 @@ namespace lab_1
         {
             Point2D P = new Point2D();
             Random rnd = new Random();
-            P.x = rnd.Next() * 546;
-            P.y = rnd.Next() * 261;
+            P.x = rnd.Next(0, 546);
+            P.y = rnd.Next(0, 261);
 
             return P;
+        }
+
+        public void setX(double value)
+        {
+            x = value;
+        }
+
+        public void setY(double value)
+        {
+            y = value;
         }
 
         public double getX()

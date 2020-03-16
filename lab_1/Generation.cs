@@ -23,7 +23,7 @@ namespace lab_1
         public static Triangle DrawTriangle()
         {
             Triangle T;
-            return T = Triangle.
+            return T = Triangle.DrawTriangle();
         }
     }
 }
